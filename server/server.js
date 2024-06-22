@@ -7,8 +7,6 @@ const authRoutes = require('./routes/auth');
 const productRoutes = require('./routes/products');
 const orderRoutes = require('./routes/orders');
 const paymentRoutes = require('./routes/payment');
-require('dotenv').config();
-
 
 const app = express();
 
